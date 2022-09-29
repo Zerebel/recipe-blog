@@ -1,0 +1,34 @@
+{
+  "name": "recipe-blog",
+  "version": "1.0.0",
+  "description": "A recipe website homepage",
+  "main": "index.js",
+  "scripts": {
+    "tail": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerebel/recipe-blog.git"
+  },
+  "keywords": [
+    "devchallenge",
+    "tailwind",
+    "recipe",
+    "blog",
+    "food",
+    "git",
+    "css",
+    "js",
+    "challenge",
+    "zerebel"
+  ],
+  "author": "Zerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zerebel/recipe-blog/issues"
+  },
+  "homepage": "https://github.com/Zerebel/recipe-blog#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
