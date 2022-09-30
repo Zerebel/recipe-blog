@@ -20,9 +20,13 @@
       rel="stylesheet"
     />
   </head>
-  <body class="">
-    <header class="md:gap-3 gap-1 ">
-      <p class="font-playfair font-bold md:text-5xl text-2xl leading-10">
+  <body class="flex flex-col m-4">
+    <header
+      class="md:gap-3 gap-1 flex flex-col items-start lg:ml-40 lg:m-auto md:ml-32"
+    >
+      <p
+        class="font-playfair font-bold md:text-4xl lg:text-5xl text-2xl leading-10"
+      >
         Classic Cheesecake Recipe
       </p>
       <span
@@ -33,8 +37,232 @@
         decadence. For the best results, bake in a water bath.
       </span>
     </header>
-    <div class="md:w-3/4 mt-3">
+    <!-- Image -->
+    <div class="lg:w-5/6 md:w-11/12 mt-3 self-center">
       <img src="assets/img/photo1.png" alt="recipe-image" />
     </div>
+    <main
+      class="flex flex-wrap-reverse lg:flex-nowrap justify-center items-start gap-4 md:gap-8 lg:gap-12 mt-4"
+    >
+      <!-- #region Ingredients  -->
+      <div class="flex flex-col">
+        <div class="flex flex-col gap-4">
+          <p class="font-playfair text-2xl font-bold leading-8 text-[#333333]">
+            Ingredients
+          </p>
+          <!-- First item -->
+          <p class="font-playfair italic font-normal text-lg leading-6">
+            Graham Cracker Crust
+          </p>
+          <ul
+            class="font-montserrat font-normal md:text-sms text-sm leading-6 flex flex-col gap-3"
+          >
+            <li
+              class="list-none flex gap-2 items-start md:items-center md:self-auto"
+            >
+              <div
+                class="h-5 w-5 min-h-[1.25rem] min-w-[1.25rem] border border-slate-600 rounded"
+              ></div>
+              <span class="break-words">
+                1 and 1/2 cups (150g)
+                <span class="font-bold">graham cracker crumbs</span> (about 10
+                full sheet graham crackers)</span
+              >
+            </li>
+            <li
+              class="list-none flex gap-2 items-start md:items-center md:self-auto"
+            >
+              <div
+                class="h-5 w-5 min-h-[1.25rem] min-w-[1.25rem] border border-slate-600 rounded"
+              ></div>
+              <span class="break-words">
+                5 Tablespoons (70g)
+                <span class="font-bold">unsalted butter</span>, melted</span
+              >
+            </li>
+            <li
+              class="list-none flex gap-2 items-start md:items-center md:self-auto"
+            >
+              <div
+                class="h-5 w-5 min-h-[1.25rem] min-w-[1.25rem] border border-slate-600 rounded"
+              ></div>
+              <span class="break-words">
+                1/4 cup (50g) <span class="font-bold">granulated sugar</span>
+              </span>
+            </li>
+          </ul>
+          <!-- Second item -->
+          <p class="font-playfair italic font-normal text-lg leading-6">
+            Cheesecake
+          </p>
+          <ul
+            class="font-montserrat font-normal md:text-sms text-sm leading-6 flex flex-col gap-3"
+          >
+            <li
+              class="list-none flex gap-2 items-start md:items-center md:self-auto"
+            >
+              <div
+                class="h-5 w-5 min-h-[1.25rem] min-w-[1.25rem] border border-slate-600 rounded"
+              ></div>
+              <span class="break-words">
+                four 8-ounce blocks (904g) full-fat
+                <span class="font-bold">cream cheese</span>, softened to room
+                temperature
+              </span>
+            </li>
+            <li
+              class="list-none flex gap-2 items-start md:items-center md:self-auto"
+            >
+              <div
+                class="h-5 w-5 min-h-[1.25rem] min-w-[1.25rem] border border-slate-600 rounded"
+              ></div>
+              <span class="break-words">
+                1/4 cup (50g) <span class="font-bold">granulated sugar</span>
+              </span>
+            </li>
+            <li
+              class="list-none flex gap-2 items-start md:items-center md:self-auto"
+            >
+              <div
+                class="h-5 w-5 min-h-[1.25rem] min-w-[1.25rem] border border-slate-600 rounded"
+              ></div>
+              <span class="break-words">
+                1 cup (240g) full-fat <span class="font-bold">sour cream</span>,
+                at room temperature
+              </span>
+            </li>
+            <li
+              class="list-none flex gap-2 items-start md:items-center md:self-auto"
+            >
+              <div
+                class="h-5 w-5 min-h-[1.25rem] min-w-[1.25rem] border border-slate-600 rounded"
+              ></div>
+              <span class="break-words">
+                1 teaspoon <span class="font-bold">pure vanilla extract</span>
+              </span>
+            </li>
+            <li
+              class="list-none flex gap-2 items-start md:items-center md:self-auto"
+            >
+              <div
+                class="h-5 w-5 min-h-[1.25rem] min-w-[1.25rem] border border-slate-600 rounded"
+              ></div>
+              <span class="break-words">
+                2 teaspoons
+                <span class="font-bold">fresh lemon juice</span> (optional, but
+                recommended)
+              </span>
+            </li>
+            <li
+              class="list-none flex gap-2 items-start md:items-center md:self-auto"
+            >
+              <div
+                class="h-5 w-5 min-h-[1.25rem] min-w-[1.25rem] border border-slate-600 rounded"
+              ></div>
+              <span class="break-words">
+                3 large <span class="font-bold">eggs</span>, at room temperature
+              </span>
+            </li>
+            <li
+              class="list-none flex gap-2 items-start md:items-center md:self-auto lg:w-[45rem]"
+            >
+              <div
+                class="h-5 w-5 min-h-[1.25rem] min-w-[1.25rem] border border-slate-600 rounded"
+              ></div>
+              <span class="break-words">
+                topping suggestions:
+                <span class="font-medium">
+                  salted caramel, lemon curd, strawberry topping, chocolate
+                  ganache, red wine chocolate ganache, fresh fruit, whipped
+                  cream, or raspberry sauce
+                </span>
+                (recipe in notes)
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- #endregion -->
+      <!-- #region Time -->
+      <div
+        class="font-montserrat flex lg:flex-col gap-8 lg:shadow-md lg:rounded-md lg:shadow-slate-400 p-3 md:p-8 lg:p-10 flex-wrap"
+      >
+        <div
+          class="flex gap-2 items-center justify-center self-start md:self-auto"
+        >
+          <img
+            src="assets/img/spoon-and-knife.svg"
+            alt="spoon-and-knife"
+            class="w-4 h-4 md:h-auto md:w-auto"
+          />
+          <div class="flex flex-col">
+            <span
+              class="uppercase text-xxxs md:text-xs text-slate-400 font-bold"
+              >Yields</span
+            >
+            <span
+              class="text-[#F2994A] font-medium text-xxs md:text-sm leading-4"
+              >12 servings</span
+            >
+          </div>
+        </div>
+        <div class="flex lg:flex-col gap-8 flex-wrap">
+          <div class="flex gap-2 items-center justify-center">
+            <img
+              src="assets/img/clock.svg"
+              alt="clock"
+              class="w-4 h-4 md:h-auto md:w-auto"
+            />
+            <div class="flex flex-col">
+              <span
+                class="uppercase text-xxxs md:text-sm text-slate-400 font-bold"
+                >Prep TIme</span
+              >
+              <span class="font-medium text-xxs md:text-sm leading-4"
+                >45 minutes</span
+              >
+            </div>
+          </div>
+          <div class="flex gap-2 items-center justify-center">
+            <img
+              src="assets/img/clock.svg"
+              alt="clock"
+              class="w-4 h-4 md:h-auto md:w-auto"
+            />
+            <div class="flex flex-col">
+              <span
+                class="uppercase text-xxxs md:text-xs text-slate-400 font-bold"
+                >Cook Time</span
+              >
+              <span class="font-medium text-xxs md:text-sm leading-4"
+                >1 hour</span
+              >
+            </div>
+          </div>
+          <div class="flex gap-2 items-center justify-center">
+            <img
+              src="assets/img/clock.svg"
+              alt="clock"
+              class="w-4 h-4 md:h-auto md:w-auto"
+            />
+            <div class="flex flex-col">
+              <span
+                class="uppercase text-xxxs md:text-xs text-slate-400 font-bold"
+                >Total Time</span
+              >
+              <span class="font-medium text-xxs md:text-sm leading-4"
+                >7,75 hours</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #endregion -->
+    </main>
+    <!-- #region Instructions -->
+    <div>
+      
+    </div>
+    <!-- #endregion -->
   </body>
 </html>
