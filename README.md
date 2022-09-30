@@ -59,7 +59,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/Zerebel/recipe-blog
 
 # Install dependencies
 $ npm install
@@ -79,4 +79,4 @@ $ npm start
 ## Contact
 
 - GitHub [@Zerebel](https://github.com/Zerebel)
-- Twitter [@Zerebel_](https://twitter.com/Zerebel_)
+- Twitter [@Zerebel\_](https://twitter.com/Zerebel_)
